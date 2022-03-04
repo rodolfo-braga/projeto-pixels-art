@@ -16,7 +16,7 @@ function selectColor(event) {
 
 // Função que cria a paleta de cores
 function createPalette() {
-  const numberOfColors = 4;
+  const numberOfColors = 8;
   const colorPalette = document.querySelector('#color-palette');
 
   for (let index = 0; index < numberOfColors; index += 1) {
@@ -54,8 +54,8 @@ function changePixelColor() {
 }
 
 // Tamanho do quadro inicial
-let numberOfRows = 5;
-let numberOfColumns = 5;
+let numberOfRows = 15;
+let numberOfColumns = 18;
 
 // Função que cria e adiciona os pixels ao quadro
 function createPixelBoard() {
